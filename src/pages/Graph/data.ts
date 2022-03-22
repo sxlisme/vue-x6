@@ -25,7 +25,7 @@ const graphData = {
               position: 'top',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -40,7 +40,7 @@ const graphData = {
               position: 'right',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -55,7 +55,7 @@ const graphData = {
               position: 'bottom',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -70,7 +70,7 @@ const graphData = {
               position: 'left',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -102,7 +102,7 @@ const graphData = {
           ],
         },
         id: '8650a303-3568-4ff2-9fac-2fd3ae7e6f2a',
-        zIndex: 1,
+        zIndex: 9999,
       },
       {
         position: {
@@ -125,7 +125,7 @@ const graphData = {
               position: 'top',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -140,7 +140,7 @@ const graphData = {
               position: 'right',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -155,7 +155,7 @@ const graphData = {
               position: 'bottom',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -170,7 +170,7 @@ const graphData = {
               position: 'left',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -241,10 +241,10 @@ const graphData = {
         },
         attrs: {
           text: {
-            text: '链接节点',
-          },
+            text: '链接节点1',
+          },         
           body: {
-            rx: 35,
+            rx: 66,
             ry: 35,
           },
         },
@@ -255,7 +255,7 @@ const graphData = {
               position: 'top',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -270,7 +270,7 @@ const graphData = {
               position: 'right',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -285,7 +285,7 @@ const graphData = {
               position: 'bottom',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -300,7 +300,7 @@ const graphData = {
               position: 'left',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -367,7 +367,7 @@ const graphData = {
               },
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -387,7 +387,7 @@ const graphData = {
               },
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -407,7 +407,7 @@ const graphData = {
               },
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -427,7 +427,7 @@ const graphData = {
               },
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -520,7 +520,7 @@ const graphData = {
               },
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -540,7 +540,7 @@ const graphData = {
               },
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -560,7 +560,7 @@ const graphData = {
               },
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -580,7 +580,7 @@ const graphData = {
               },
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -739,7 +739,7 @@ const graphData = {
               position: 'top',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -754,7 +754,7 @@ const graphData = {
               position: 'right',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -769,7 +769,7 @@ const graphData = {
               position: 'bottom',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -784,7 +784,7 @@ const graphData = {
               position: 'left',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -869,7 +869,7 @@ const graphData = {
               position: 'top',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -884,7 +884,7 @@ const graphData = {
               position: 'right',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -899,7 +899,7 @@ const graphData = {
               position: 'bottom',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -914,7 +914,7 @@ const graphData = {
               position: 'left',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -1003,7 +1003,7 @@ const graphData = {
               position: 'top',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -1018,7 +1018,7 @@ const graphData = {
               position: 'right',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -1033,7 +1033,7 @@ const graphData = {
               position: 'bottom',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -1048,7 +1048,7 @@ const graphData = {
               position: 'left',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -1098,7 +1098,7 @@ const graphData = {
               position: 'top',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -1113,7 +1113,7 @@ const graphData = {
               position: 'right',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -1128,7 +1128,7 @@ const graphData = {
               position: 'bottom',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,
@@ -1143,7 +1143,7 @@ const graphData = {
               position: 'left',
               attrs: {
                 circle: {
-                  r: 3,
+                  r: 6,
                   magnet: true,
                   stroke: '#5F95FF',
                   strokeWidth: 1,

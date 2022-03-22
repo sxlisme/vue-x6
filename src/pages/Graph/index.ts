@@ -90,7 +90,7 @@ export default class FlowGraph {
             padding: 4,
             attrs: {
               strokeWidth: 4,
-              stroke: 'rgba(223,234,255)',
+              stroke: 'rgba(0,0,255)',
             },
           },
         },
@@ -210,7 +210,7 @@ export default class FlowGraph {
             position: {
               name: 'top',
               args: {
-                dx: -26,
+                dx: -126,
               },
             },
           },
@@ -242,7 +242,7 @@ export default class FlowGraph {
       },
     })
     const r4 = new FlowChartRect({
-      width: 70,
+      width: 90,
       height: 70,
       attrs: {
         body: {
@@ -250,7 +250,7 @@ export default class FlowGraph {
           ry: 35,
         },
         text: {
-          text: '链接节点',
+          text: '链接节点1',
         },
       },
     })
@@ -296,14 +296,15 @@ export default class FlowGraph {
     })
     graph.on(
       'node:mouseenter',
-      FunctionExt.debounce(() => {
-        const ports = container.querySelectorAll('.x6-port-body') as NodeListOf<SVGAElement>
+      FunctionExt.debounce((e) => {
+        const ports =  e.view.container.querySelectorAll('.x6-port-body') as NodeListOf<SVGAElement>
         this.showPorts(ports, true)
       }),
-      500
+      50
     )
-    graph.on('node:mouseleave', () => {
-      const ports = container.querySelectorAll('.x6-port-body') as NodeListOf<SVGAElement>
+    graph.on('node:mouseleave', (e) => {
+      console.log(e)
+      const ports = e.view.container.querySelectorAll('.x6-port-body') as NodeListOf<SVGAElement>
       this.showPorts(ports, false)
     })
 

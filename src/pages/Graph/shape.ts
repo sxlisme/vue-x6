@@ -9,7 +9,7 @@ export const FlowChartRect = Graph.registerNode('flow-chart-rect', {
       // strokeWidth: 1,
       strokeWidth: 0,
       // fill: 'rgba(95,149,255,0.05)',
-      fill: '#D9D9D9',
+      fill: '#00000020', //节点填充色
     },
     fo: {
       refWidth: '100%',
@@ -176,8 +176,8 @@ export const FlowChartImageRect = Graph.registerNode('flow-chart-image-rect', {
       'text-anchor': 'start',
     },
     text: {
-      text: 'this is content text',
-      refX: 40,
+      text: 'this is content text 你好我的世界',
+      refX: 0,
       refY: 38,
       fontSize: 12,
       // fill: 'rgba(0,0,0,0.6)',
@@ -314,7 +314,7 @@ export const FlowChartTitleRect = Graph.registerNode('flow-chart-title-rect', {
       'text-anchor': 'start',
     },
     text: {
-      text: 'this is content text',
+      text: '自定义文字',
       refX: 8,
       refY: 45,
       fontSize: 12,
@@ -590,6 +590,7 @@ EdgeArrow.config({
   },
 })
 
+// 双箭头
 export class EdgeTwoArrows extends Shape.Edge {}
 EdgeTwoArrows.config({
   attrs: {
